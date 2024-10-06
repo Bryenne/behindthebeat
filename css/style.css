@@ -181,12 +181,12 @@ img {
 }
 
 button {
-    font-size: 28px;
+    font-size: 1.7em;
     font-family: sans-serif;
     font-weight: 600;
     color: #FFE8D4;
     background-color: #8a5727;
-    border-radius: 6px;
+    border-radius: 0.3em;
     border: 0;
     transition: all 350ms ease;
     margin-left: 3em;
@@ -218,7 +218,7 @@ button:focus {
 }
 
 .over section{
-    padding: 10px;
+    padding: 0.6em;
     background-color: #FFD4B4;
     margin: 2em;
 }
@@ -281,7 +281,7 @@ button:focus {
     background-color: #ffbb87;
 }
 
-#shark {
+#part {
     display: flex;
 }
 
@@ -299,8 +299,13 @@ button:focus {
     margin-left: 2em;
 }
 
+.overzicht h4 {
+    margin-bottom: 0;
+}
+
 .overzicht p {
     margin: 1em;
+    margin-top: 0;
     padding: 0;
     font-size: 1.3em;
     color: #341e00;
@@ -322,7 +327,7 @@ button:focus {
 }
 
 .overzicht div {
-    display: inline-block;
+    display: grid;
 }
 
 .overzicht a {
@@ -410,6 +415,10 @@ footer h2 {
     text-decoration: underline;
     font-size: 1.5em;
     font-weight: 600;
+}
+
+footer nav {
+    background-color: #351D00;
 }
 
 footer ul {
