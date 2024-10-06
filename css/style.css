@@ -87,7 +87,7 @@ main h2{
     padding-bottom: 1em;
     padding-top: 0.5em;
     background-color: #FFD4B4;
-    background-image: url(images/notes.png);
+    background-image: url(../images/notes.png);
     background-repeat: no-repeat;
     background-size: 100% 200px;
     background-position: 0px -50px;
@@ -166,7 +166,7 @@ img {
 }
 
 .high a:hover {
-    color: #f8e3ca;
+    color: #8a5727;
 }
 
 .high img {
